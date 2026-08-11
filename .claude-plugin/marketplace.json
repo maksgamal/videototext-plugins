@@ -1,0 +1,37 @@
+{
+  "name": "videototext",
+  "owner": {
+    "name": "VideoToText",
+    "email": "contact@videototext.click"
+  },
+  "metadata": {
+    "description": "Convert YouTube and video URLs into searchable transcripts, summaries, chapters, and RAG exports for Claude.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "videototext",
+      "source": "./plugins/videototext",
+      "description": "YouTube & video transcripts for AI agents — fetch, search, summarize, and export via VideoToText MCP.",
+      "version": "1.0.0",
+      "author": {
+        "name": "VideoToText",
+        "email": "contact@videototext.click"
+      },
+      "homepage": "https://videototext.click/docs/mcp",
+      "repository": "https://github.com/maksgamal/videototext.click",
+      "license": "MIT",
+      "keywords": [
+        "youtube",
+        "transcript",
+        "video-to-text",
+        "mcp",
+        "rag",
+        "subtitles",
+        "summarize"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

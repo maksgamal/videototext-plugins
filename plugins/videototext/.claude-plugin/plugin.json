@@ -1,0 +1,22 @@
+{
+  "name": "videototext",
+  "version": "1.0.0",
+  "description": "Convert YouTube and video URLs into searchable transcripts, summaries, chapters, and RAG-ready exports via VideoToText MCP.",
+  "author": {
+    "name": "VideoToText",
+    "email": "contact@videototext.click",
+    "url": "https://videototext.click"
+  },
+  "homepage": "https://videototext.click/docs/mcp",
+  "repository": "https://github.com/maksgamal/videototext.click",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "transcript",
+    "video-to-text",
+    "mcp",
+    "rag",
+    "subtitles",
+    "summarize"
+  ]
+}

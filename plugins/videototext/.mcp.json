@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "videototext": {
+      "type": "http",
+      "url": "https://qepiskxncjftgbutsdme.supabase.co/functions/v1/cliptext-mcp",
+      "headers": {
+        "x-api-key": "${VIDEOTOTEXT_API_KEY}"
+      }
+    }
+  }
+}
