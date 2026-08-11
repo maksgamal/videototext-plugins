@@ -1,20 +1,21 @@
 ---
 name: videototext
-description: Fetch, search, summarize, or export a YouTube video transcript with VideoToText MCP. Use when the user pastes a youtube.com or youtu.be URL or asks for captions, summary, chapters, or RAG chunks.
+description: Convert YouTube, TikTok, Instagram, Facebook, X, LinkedIn, or Pinterest videos to text with VideoToText MCP. Use when the user pastes a video URL or asks for transcript, captions, summary, chapters, or RAG export.
 ---
 
 # VideoToText
 
-Primary skill for YouTube / video transcripts.
+AI video-to-text for 7 platforms: YouTube, TikTok, Instagram, Facebook, X (Twitter), LinkedIn, and Pinterest.
 
 ## When to use
 
-- User pastes a YouTube URL (`youtube.com` / `youtu.be`)
+- User pastes a public video URL from any supported platform
 - User asks for transcript, captions, subtitles, summary, chapters, or RAG export
+- User wants to search a video for a quote or jump to a timestamp
 
 ## Steps
 
-1. Call MCP tool `cliptext_get_transcript` with the video URL or ID.
+1. Call MCP tool `cliptext_get_transcript` with the video URL.
 2. For summaries, call `cliptext_summarize` (`bullet` | `short` | `long`) and optionally `cliptext_get_chapters`.
 3. For search, call `cliptext_search_transcript` with the keyword.
 4. For RAG / vector DB, call `cliptext_export_for_rag`.
@@ -22,7 +23,7 @@ Primary skill for YouTube / video transcripts.
 
 ## Output
 
-- Short overview (title, channel, 2–4 sentence summary)
+- Short overview (title, source, 2–4 sentence summary)
 - Timestamped quotes when citing claims (`[mm:ss]`)
 - Never invent transcript text — only use MCP tool results
 

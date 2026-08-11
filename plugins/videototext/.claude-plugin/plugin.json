@@ -1,7 +1,7 @@
 {
   "name": "videototext",
   "version": "1.0.0",
-  "description": "Convert YouTube and video URLs into searchable transcripts, summaries, chapters, and RAG-ready exports via VideoToText MCP.",
+  "description": "AI video to text for YouTube, TikTok, Instagram, Facebook, X, LinkedIn, and Pinterest. Transcribe videos into searchable transcripts, summaries, chapters, and RAG-ready exports via VideoToText MCP.",
   "author": {
     "name": "VideoToText",
     "email": "contact@videototext.click",
@@ -11,12 +11,19 @@
   "repository": "https://github.com/maksgamal/videototext-plugins",
   "license": "MIT",
   "keywords": [
-    "youtube",
-    "transcript",
+    "youtube-transcript",
     "video-to-text",
+    "tiktok-transcript",
+    "instagram-transcript",
+    "facebook-transcript",
+    "twitter-transcript",
+    "linkedin-transcript",
+    "pinterest-transcript",
+    "transcribe-video",
     "mcp",
     "rag",
     "subtitles",
+    "captions",
     "summarize"
   ]
 }

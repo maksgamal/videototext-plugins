@@ -1,7 +1,7 @@
 {
   "name": "videototext",
   "version": "1.0.0",
-  "description": "Convert YouTube and video URLs into searchable transcripts, summaries, chapters, and RAG-ready exports via VideoToText MCP.",
+  "description": "AI video to text for YouTube, TikTok, Instagram, Facebook, X, LinkedIn, and Pinterest. Transcribe videos into searchable transcripts, summaries, chapters, and RAG-ready exports via VideoToText MCP.",
   "author": {
     "name": "VideoToText",
     "email": "contact@videototext.click",
@@ -11,9 +11,15 @@
   "repository": "https://github.com/maksgamal/videototext-plugins",
   "license": "MIT",
   "keywords": [
-    "youtube",
-    "transcript",
+    "youtube-transcript",
     "video-to-text",
+    "tiktok-transcript",
+    "instagram-transcript",
+    "facebook-transcript",
+    "twitter-transcript",
+    "linkedin-transcript",
+    "pinterest-transcript",
+    "transcribe-video",
     "mcp",
     "rag",
     "subtitles",
@@ -23,8 +29,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "VideoToText",
-    "shortDescription": "YouTube & video transcripts for AI agents",
-    "longDescription": "VideoToText gives ChatGPT and Codex tools to fetch, search, summarize, and export transcripts from YouTube videos, playlists, and channels. Returns timestamped text, chapters, multiple export formats, and RAG chunks with deep links.",
+    "shortDescription": "AI video to text across 7 platforms",
+    "longDescription": "VideoToText gives ChatGPT and Codex tools to convert YouTube, TikTok, Instagram, Facebook, X, LinkedIn, and Pinterest videos into searchable transcripts. Fetch timestamped text, summarize, search quotes, export TXT/Markdown/JSON/CSV/SRT/VTT, and build RAG chunks with deep links — including YouTube playlists and channels.",
     "developerName": "VideoToText",
     "category": "Productivity",
     "capabilities": ["Read"],
@@ -32,7 +38,7 @@
     "privacyPolicyURL": "https://videototext.click/privacy",
     "termsOfServiceURL": "https://videototext.click/terms",
     "defaultPrompt": [
-      "Get the transcript for this YouTube URL and summarize the key points with timestamps.",
+      "Get the transcript for this video URL (YouTube, TikTok, Instagram, Facebook, X, LinkedIn, or Pinterest) and summarize the key points with timestamps.",
       "Search this video transcript for mentions of pricing and quote the exact lines.",
       "Export this video as RAG chunks with deep links."
     ],
